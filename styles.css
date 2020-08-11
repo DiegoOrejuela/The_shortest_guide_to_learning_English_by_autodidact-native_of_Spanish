@@ -1,0 +1,164 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+}
+
+article{
+	flex:2;
+	overflow-y: auto;
+}
+
+aside{
+	flex:1;
+	overflow-y: auto;
+}
+
+header{
+	font-size: 19;
+}
+
+header a:hover {
+color: red;
+}
+
+
+
+a.aboutme:hover {
+	color: white;
+	background-color: black;
+}
+
+h1{
+	text-align: center;
+}
+
+h3.center{
+	text-align: center;
+}
+h5{
+	text-align: center;
+	font-style: normal;
+}
+
+p, article li{
+	font-family: Gadugi;
+	font-size: 18;
+}
+
+blockquote{
+	font-family: Gadugi;
+	font-size: 15;
+	text-align: center;
+}
+
+div.big{
+
+	margin: auto;
+	width: 550px;
+	height: 220px;
+	border: 1px solid black;
+	flex-direction: row;
+	max-width: 100%
+	
+}
+
+div.son{
+	
+	width: 49%;
+	height: 220px;
+	float: left;
+		
+
+}
+
+div.son h1 {
+	font-size: 150;
+
+}
+
+
+@media only screen and (max-width: 576px) {
+	div.son h1 {
+        font-size: 100px;
+    }
+
+    div.big{
+    	height: 180px;
+    }
+
+    div.son{
+    	height: 180px;
+    }
+
+    div.son p.normal{
+    	font-size: 15;
+    }
+
+    div.son p.minus{
+    	font-size: 14;
+    }
+
+}
+
+
+h1.st{
+	color: rgb(91, 155, 213);
+
+}
+h1.sm{
+	color: rgb(237, 125, 49);
+}
+h1.gr{
+	color: rgb(112, 173, 171);
+}
+h1.pr{
+	color: rgb(152, 102, 51);
+}
+
+p.normal{
+	text-align: center;
+}
+
+p.centerital{
+	text-align: center;
+	font-style: italic;
+	font-size: 16;
+}
+
+p.minusleft{
+	font-size: 16;
+	text-align: left;
+	font-style: italic;
+
+}
+
+p.minuscenter{
+	font-size: 16;
+	text-align: center;
+	font-style: italic;
+
+}
+
+p.indent{
+	padding-left: 1cm;
+}
+
+b{
+	font-weight: bold;
+}
+
+div.socialmedia{
+	text-align: center;
+}
+div.socialmedia img{
+	width: 50;
+	height: 50;
+	margin:0 10px;
+}
+
